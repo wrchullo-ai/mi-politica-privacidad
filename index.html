@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Políticas de Privacidad y Seguridad - Wbot.Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 leading-relaxed">
+
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12 px-6 text-center shadow-lg">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold mb-2">Wbot.Services</h1>
+            <p class="text-slate-300 text-lg">Centro de Privacidad y Seguridad para Desarrolladores</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        
+        <!-- Privacy Policy Section -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 border-b pb-2">Política de Privacidad</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="font-semibold text-lg text-blue-600">1. Introducción</h3>
+                    <p class="mt-2 text-slate-600">
+                        En <strong>Wbot.Services</strong>, la privacidad de nuestros usuarios es una prioridad. Esta página detalla cómo manejamos la información cuando utilizas nuestras integraciones con Meta (Facebook, Instagram, WhatsApp).
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold text-lg text-blue-600">2. Información que Recopilamos</h3>
+                    <p class="mt-2 text-slate-600">
+                        Nuestras aplicaciones en modo de prueba (testing) solo acceden a la información básica autorizada por el usuario a través del inicio de sesión de Meta, que puede incluir:
+                    </p>
+                    <ul class="list-disc ml-6 mt-2 text-slate-600">
+                        <li>Nombre público de perfil.</li>
+                        <li>Dirección de correo electrónico.</li>
+                        <li>Identificador único de usuario de la plataforma.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold text-lg text-blue-600">3. Uso de la Información</h3>
+                    <p class="mt-2 text-slate-600">
+                        La información se utiliza exclusivamente para:
+                    </p>
+                    <ul class="list-disc ml-6 mt-2 text-slate-600">
+                        <li>Validar la identidad del usuario en nuestras herramientas de software.</li>
+                        <li>Realizar pruebas técnicas de integración y flujo de mensajes.</li>
+                        <li>Mejorar la experiencia de usuario en nuestra plataforma.</li>
+                    </ul>
+                    <p class="mt-2 text-slate-500 italic font-medium">
+                        * No vendemos ni compartimos datos con terceros con fines publicitarios.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold text-lg text-blue-600">4. Seguridad de los Datos</h3>
+                    <p class="mt-2 text-slate-600">
+                        Implementamos protocolos de cifrado y almacenamiento seguro para garantizar que los datos de prueba no sean vulnerados ni accedidos por personal no autorizado.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Deletion Section (Mandatory for Meta) -->
+        <section id="deletion" class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 mb-8 border-l-4 border-l-blue-500">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6">Instrucciones de Eliminación de Datos</h2>
+            <p class="text-slate-600 mb-4">
+                De acuerdo con las políticas de Meta, proporcionamos un método sencillo para que los usuarios soliciten la eliminación de sus datos de nuestras bases de datos:
+            </p>
+            <ol class="list-decimal ml-6 space-y-4 text-slate-600">
+                <li>
+                    Vaya a la sección de <strong>"Configuración y Privacidad"</strong> de su cuenta de Facebook (o Instagram).
+                </li>
+                <li>
+                    Busque el menú <strong>"Apps y sitios web"</strong>.
+                </li>
+                <li>
+                    Busque la aplicación <strong>Wbot.Services</strong> y haga clic en el botón "Eliminar".
+                </li>
+                <li>
+                    Si desea una eliminación manual completa de sus registros en nuestros servidores de prueba, envíe un correo electrónico a <strong>soporte@wbot.services</strong> con el asunto "Solicitud de eliminación de datos".
+                </li>
+            </ol>
+            <div class="mt-6 p-4 bg-blue-50 rounded-lg text-blue-800 text-sm">
+                Procesaremos su solicitud en un plazo máximo de 48 horas hábiles.
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="text-center py-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-4">¿Tiene preguntas?</h2>
+            <p class="text-slate-600 mb-4">Si tiene dudas sobre nuestra política de seguridad, contáctenos:</p>
+            <a href="mailto:soporte@wbot.services" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full transition duration-300">
+                Contactar Soporte
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-200 py-8 px-6 text-center text-slate-500 text-sm">
+        <p>&copy; 2025 Wbot.Services - Todos los derechos reservados.</p>
+        <p class="mt-2">Esta página cumple con los requisitos de la plataforma Meta for Developers.</p>
+    </footer>
+
+</body>
+</html>
